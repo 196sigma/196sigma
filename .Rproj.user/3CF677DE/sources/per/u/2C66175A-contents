@@ -1,0 +1,5 @@
+rm(list=ls())
+gc()
+library(data.table)
+elec <- fread("data/electricity.txt")
+elec
